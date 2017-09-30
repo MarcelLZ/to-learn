@@ -1,4 +1,4 @@
-# ToLearn
+# To Learn
 Hybrid CSS/HTML framework to create web/mobile projects!
 
 ### Framework Status
