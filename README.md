@@ -5,4 +5,11 @@ Hybrid CSS/HTML framework to create web/mobile projects!
 - [ ] Grid System (Flexbox)
 - [ ] FAB Buttons
 - [ ] Raised Buttons
-- [ ] ...
+- [ ] Tables
+- [ ] Tabs
+- [ ] Modals
+- [ ] Card
+- [ ] Breadcrumbs
+- [ ] Inputs
+- [ ] Menus
+- [ ] Dropdowns
