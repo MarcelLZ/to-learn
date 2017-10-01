@@ -3,9 +3,7 @@
   "version": "0.0.1",
   "description": "Hybrid CSS/HTML framework to create web/mobile projects!",
   "main": "package.json",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MarcelLZ/to-learn.git"
