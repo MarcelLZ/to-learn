@@ -30,5 +30,8 @@
     "gulp-sass": "^3.1.0",
     "minireset.css": "0.0.3",
     "node-sass": "^4.5.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13"
   }
 }
