@@ -13,3 +13,9 @@ Hybrid CSS/HTML framework to create web/mobile projects!
 - [ ] Inputs
 - [ ] Menus
 - [ ] Dropdowns
+
+### Development
+```sh
+$ npm install
+$ gulp dev # starts watch server
+```
