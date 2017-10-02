@@ -1,6 +1,7 @@
 const gulp = require('gulp');
 const gulpSass = require('gulp-sass');
 const browserSync = require('browser-sync');
+const sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('dev', ['scss'], function () {
 
@@ -15,7 +16,11 @@ gulp.task('dev', ['scss'], function () {
 
 gulp.task('scss', function () {
 	return gulp.src('to-learn.scss')
-		.pipe(gulpSass())
+		.pipe(sourcemaps.init())
+		.pipe(gulpSass({
+			outputStyle: 'compressed'
+		}))
+		.pipe(sourcemaps.write('./'))
 		.pipe(gulp.dest('docs/css'))
 		.pipe(browserSync.stream());
 });
